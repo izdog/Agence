@@ -40,7 +40,9 @@
 		} elseif ($choix == '4') {
 			$prixVoy = 10000;
 			$choix = 'sur le soleil';
-		}
+		} else {
+      echo 'Vous avez rien selectionné bougre d\'âne'; 
+    }
 
 		$prixTotal = $prixVoy*$nbPerso;
 
