@@ -2,8 +2,8 @@
   session_start();
 
   $_SESSION['civ'] = $_POST['civ'];
-  $_SESSION['nom'] = $_POST['nom'];
-  $_SESSION['prenom']= $_POST['prenom'];
+  $_SESSION['nom'] = htmlspecialchars($_POST['nom']);
+  $_SESSION['prenom']= htmlspecialchars($_POST['prenom']);
  ?>
 <!DOCTYPE html>
 <html>
@@ -18,14 +18,13 @@
         <img src="img/illu.jpg" alt="illustration super cheap hand made" />
       </div>
     </header>
-    <section class="form">
+    <section id="form">
       <h1>Votre Trip</h1>
 <!-- RECUPERATION DES DONNEES -->
     <?php
       foreach($_POST['options'] as $checkoptions){
           $choix = $checkoptions;
       }
-
 // Code pour le choix ! !
       if ($choix == 1 ) {
         $typeVoy = 'un voyage';

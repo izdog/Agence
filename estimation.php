@@ -14,7 +14,7 @@
         <img src="img/illu.jpg" alt="illustratio super cheap hand made" />
       </div>
     </header>
-  	<section class="form">
+  	<section id="form">
   		<h1>Résumé de votre demande :</h1>
       <div class="recap">
 
@@ -43,6 +43,7 @@
 		}
 
 		$prixTotal = $prixVoy*$nbPerso;
+
 
 		echo '<p class="firstL">Bonjour, '.$civ.' '.$nom.' '.$prenom.'</p>';
 		echo '<p class="sndL">Vous avez choisi '.$typeVoy.' <span class="brown">'.$choix.'</span> au prix de '.$prixVoy.'$ par personne.</p>';

@@ -5,15 +5,19 @@
     <title>Agence Bachibouzouk</title>
     <link rel="stylesheet" href="css/stylesForm.css" media="screen" title="no title" charset="utf-8">
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700' rel='stylesheet' type='text/css'>
+    <script src="dist/js/smooth-scroll.js"></script>
   </head>
   <body>
   <header>
+  <div class="headBut">
+      <a data-scroll href="#form">Par ici l'inscription</a>
+    </div>
     <div class="img">
       <img src="img/illu.jpg" alt="illustratio super cheap hand made" />
     </div>
   </header>
 
-  <section class="form">
+  <section id="form">
     <h1>Bienvenue sur Easy Trip</h1>
     <form class="smth" action="agence.php" method="post">
       <h3>Civilité :</h3>
@@ -40,7 +44,8 @@
       Copyright Bidule du 10
     </p>
   </footer>
-
-
   </body>
+  <script>
+    smoothScroll.init();
+  </script>
 </html>
