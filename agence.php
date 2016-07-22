@@ -36,7 +36,7 @@
         echo '</select>';
         echo '<h3>Nombre de personne :</h3>';
         echo '<div class="nb">';
-        echo '<input class="nb" type="text" name="nbPerso" value="">';
+        echo '<input class="nb" type="text" name="nbPerso" value="" required>';
         echo '</div>';
         echo '<input type="submit" name="estimation" value="Estimation">';
         echo '</form>';
@@ -50,7 +50,7 @@
         echo '</select>';
         echo '<h3>Nombre de personne :</h3>';
         echo '<div class="nb">';
-        echo '<input type="text" name="nbPerso" value="">';
+        echo '<input type="text" name="nbPerso" value="" required>';
         echo '</div>';
         echo '<input type="submit" name="estimation" value="Estimation">';
         echo '</form>';

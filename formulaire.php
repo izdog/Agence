@@ -27,9 +27,9 @@
         <option value="Mlle">Mlle</option>
       </select>
       <h3>Nom :</h3>
-      <input type="text" name="nom" value="Votre nom">
+      <input type="text" name="nom" value="Votre nom" required="">
       <h3>Prénom :</h3>
-      <input type="text" name="prenom" value="Votre prénom">
+      <input type="text" name="prenom" value="Votre prénom" required="">
       <div class="container">
         <input id="toggle1" class="hide" type="checkbox" name="options[]" value="1">
         <label for="toggle1">Voyage</label>
