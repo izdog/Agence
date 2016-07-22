@@ -31,7 +31,7 @@
         echo '<form action="estimation.php" method="post">';
         echo '<h3>Choix du voyage :</h3>';
         echo '<select name="choixvoyage">';
-        echo '<option value="1">Le Mordor- &Ccedil;a craint ! - 300$ par pers</option>';
+        echo '<option value="1">Le Mordor - &Ccedil;a craint ! - 300$ par pers</option>';
         echo '<option value="2">La Comté - Le pied ! - 600$ par pers</option>';
         echo '</select>';
         echo '<h3>Nombre de personne :</h3>';
